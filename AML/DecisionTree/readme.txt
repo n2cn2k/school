@@ -30,7 +30,10 @@ given data sets, attribute selecting heuristics, and post-pruning parameters.
             
             For example:
             
-                "C:\Users\mark\workspace\DecisionTree\src>java DecisionTree 100000 30 ..\\data_sets1\\training_set.csv ..\\data_sets1\\validation_set.csv ..\\data_sets1\\test_set.csv no"
+                "C:\Users\mark\workspace\DecisionTree\src>java DecisionTree 100000 30
+                 ..\\data_sets1\\training_set.csv 
+                 ..\\data_sets1\\validation_set.csv 
+                 ..\\data_sets1\\test_set.csv no"
     
     
         2.2. Batch Test Mode
