@@ -1,0 +1,67 @@
+P0-0:  Before Pruning
+Pk-l:  Post Pruning By K = k and L = l
+IG_D1: Information Gain Hueristic on Dataset 1
+VI_D1: Variance Impurity Hueristic on Dataset 1
+IG_D2: Information Gain Hueristic on Dataset 2
+VI_D2: Variance Impurity Hueristic on Dataset 2
+
+A decision tree can be printed out as the tree_print.txt shows.
+All results are from raw experiment reports: iteration_log_a.txt iteration_log_b.txt batch_log.txt and batch_log.txt.
+
+Case A:    Information Gain Hueristic on Dataset 1
+Pruning,   Accuracy
+P0-0,      75.90% (Before Pruning)
+P50-10,    76.20%
+P50-17,    76.45%
+P100-10,   76.30%
+P100-15,   77.60%
+P100-18,   77.65%
+P400-12,   76.90%
+P400-27,   77.85%
+P2000-10,  76.90%
+P2000-10,  76.90%
+P4000-15,  77.50%
+
+
+Case B:    Variance Impurity Hueristic on Dataset 1
+Pruning,   Accuracy
+P0-0,      77.15% (Before Pruning)
+P50-23,    77.67%
+P100-10,   78.17%
+P100-15,   77.40%
+P100-15,   78.30%
+P400-17,   77.45%
+P1000-8,   78.50%
+P1000-17,  77.70%
+P2000-20,  79.50%
+P4000-15,  78.25%
+P8000-10,  78.45%
+
+
+Case C:    Information Gain Hueristic on Dataset 2
+Pruning,   Accuracy
+P0-0,      72.83% (Before Pruning)
+P50-2,     74.17%
+P50-3,     73.50%
+P50-12,    75.50%
+P50-15,    73.50%
+P100-17,   74.67%
+P100-25,   73.50%
+P2000-17,  75.83%
+P8000-15,  75.00%
+P10000-10, 77.17%
+
+
+Case D:    Variance Impurity Hueristic on Dataset 2
+Pruning,   Accuracy
+P0-0,      72.83% (Before Pruning)
+P50-2,     73.67%
+P50-8,     73.50%
+P100-7,    74.50%
+P100-10,   73.17%
+P100-17,   75.50%
+P400-8,    74.33%
+P400-15,   74.17%
+P1000-10,  75.00%
+P1000-15,  75.50%
+P8000-23,  75.33%
