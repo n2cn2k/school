@@ -6,16 +6,16 @@ given data sets, attribute selecting heuristics, and post-pruning parameters.
 
     1. Program Build Procedure
         1.1 Unzip the zipball, DecisionTree.zip
-        1.2 Open a shell and Change the path to:
+        1.2 Open a shell and change the path to:
             "./DecsionTree/src/"
-        1.3 Compile the sourcde:
+        1.3 Compile the source code:
             "javac DecisionTree.java"
         
         Please make sure that: 
             a. Your JDK's version is no older than 1.8.0_112;
             b. Your JDK's path is included in your PATH system varaible;
             c. You can also import the DecisionTree as a whole Java project
-               in the Eclipse if you're like to work under the JAVA IDE.
+               in the Eclipse if you like to work under the JAVA IDE.
         
     2. Progam Test Specification
         2.1. Interative Test Mode
