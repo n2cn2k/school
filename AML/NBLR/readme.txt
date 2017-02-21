@@ -125,36 +125,36 @@ relevant hyperparameter parameters.
         
     Appendix:
         A1. Program Build Procedure
-            A1.1 Unzip the zipball, NBLG.zip
+            A1.1 Unzip the zipball, NBLR.zip
             A1.2 Open a shell and Change the path to:
-                "./NBLG/src/"
+                "./NBLR/src/"
             A1.3 Compile the sourcde:
-                "javac NBLG.java"
+                "javac NBLR.java"
             
             Please make sure that: 
                 a. Your JDK's version is no older than 1.8.0_112;
                 b. Your JDK's path is included in your PATH system varaible;
-                c. You can also import the NBLG as a whole Java project
+                c. You can also import the NBLR as a whole Java project
                    in the Eclipse if you're like to work under the JAVA IDE.
             
         A2. Progam Test Specification
             A2.1. Naive Bayes
                 The program can be invoked from the command line as:
                 
-                    "java NBLG nb <if-use-stop-words>"
+                    "java NBLR nb <if-use-stop-words>"
                 
                 The parameter is specified as the homework requires: 
                     if-use-stop-words: {yes, no}
                 
                 For example:
                 
-                    "C:\Users\mark\workspace\NBLG\src>java NBLG nb yes"
+                    "C:\Users\mark\workspace\NBLR\src>java NBLR nb yes"
         
         
             A2.2. Logistic Regression
                 The program can also be invoked as:
                 
-                    "java NBLG lg <if-use-stop-words> [alpha lamda cycles]"
+                    "java NBLR lg <if-use-stop-words> [alpha lamda cycles]"
                 
                 All Parameters are specified: 
                     if-use-stop-words: {yes, no}
@@ -164,9 +164,9 @@ relevant hyperparameter parameters.
                     
                 For example:
                     
-                    "C:\Users\mark\workspace\NBLG\src>java NBLG lb yes"
+                    "C:\Users\mark\workspace\NBLR\src>java NBLR lb yes"
                     or 
-                    "C:\Users\mark\workspace\NBLG\src>java NBLG lb yes 0.065 0.002 100"
+                    "C:\Users\mark\workspace\NBLR\src>java NBLR lb yes 0.065 0.002 100"
         
     Kindly please let me know if any problem on program building and testing.
     Thank you very much!
